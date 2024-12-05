@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
+  <diagram name="Page-1" id="RraI0yEcHsYS40WSMbbe">
+    <mxGraphModel dx="1383" dy="755" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AcZ-fMvW7-9Sx0J33hD5-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;flowAnimation=1;" edge="1" parent="1" source="AcZ-fMvW7-9Sx0J33hD5-2" target="AcZ-fMvW7-9Sx0J33hD5-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AcZ-fMvW7-9Sx0J33hD5-2" value="Sales&#xa;Producer" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="168" y="172" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AcZ-fMvW7-9Sx0J33hD5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;flowAnimation=1;" edge="1" parent="1" target="AcZ-fMvW7-9Sx0J33hD5-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="663" y="202" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcZ-fMvW7-9Sx0J33hD5-3" value="Sales Topic" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Apache_kafka-icon.svg/1200px-Apache_kafka-icon.svg.png;fontSize=9;imageBorder=none;" vertex="1" parent="1">
+          <mxGeometry x="408" y="172" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AcZ-fMvW7-9Sx0J33hD5-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.018;entryY=0.501;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;flowAnimation=1;entryPerimeter=0;" edge="1" parent="1" source="AcZ-fMvW7-9Sx0J33hD5-5" target="AcZ-fMvW7-9Sx0J33hD5-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AcZ-fMvW7-9Sx0J33hD5-5" value="Leaderboard&#xa;Aggregator" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png;fontSize=9;strokeWidth=0;" vertex="1" parent="1">
+          <mxGeometry x="668" y="172" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AcZ-fMvW7-9Sx0J33hD5-9" value="Ranking Topic" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Apache_kafka-icon.svg/1200px-Apache_kafka-icon.svg.png;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="898" y="172" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AcZ-fMvW7-9Sx0J33hD5-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="928" y="256" as="targetPoint" />
+            <mxPoint x="928" y="392" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcZ-fMvW7-9Sx0J33hD5-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="893" y="427" as="sourcePoint" />
+            <mxPoint x="733" y="427" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcZ-fMvW7-9Sx0J33hD5-11" value="Aggregation&#xa;Consumer" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="898" y="397" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AcZ-fMvW7-9Sx0J33hD5-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;flowAnimation=1;" edge="1" parent="1" target="AcZ-fMvW7-9Sx0J33hD5-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="653" y="427" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcZ-fMvW7-9Sx0J33hD5-15" value="Leaderboard&#xa;Storage" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn4.iconfinder.com/data/icons/redis-2/1451/Untitled-2-512.png;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="658" y="392" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AcZ-fMvW7-9Sx0J33hD5-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;flowAnimation=1;" edge="1" parent="1" target="AcZ-fMvW7-9Sx0J33hD5-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="427" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcZ-fMvW7-9Sx0J33hD5-17" value="Leaderboard API&#xa;WebSocket" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://seeklogo.com/images/K/ktor-icon-logo-C562808633-seeklogo.com.png;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="403" y="392" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AcZ-fMvW7-9Sx0J33hD5-19" value="Leaderboard&#xa;Web UI" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/2867/2867342.png;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="158" y="387" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AcZ-fMvW7-9Sx0J33hD5-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;flowAnimation=1;" edge="1" parent="1" source="AcZ-fMvW7-9Sx0J33hD5-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="198" y="504" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcZ-fMvW7-9Sx0J33hD5-23" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/9385/9385289.png;" vertex="1" parent="1">
+          <mxGeometry x="163" y="622" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AcZ-fMvW7-9Sx0J33hD5-30" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;Publica Eventos&lt;/span&gt;&lt;br style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;de Produtos Vendidos&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="288" y="212" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AcZ-fMvW7-9Sx0J33hD5-31" value="&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Aggrega Eventos e monta&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;o ranking de vendas&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="538" y="212" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AcZ-fMvW7-9Sx0J33hD5-32" value="&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Envia o ranking&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;para outro tópico&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="788" y="212" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AcZ-fMvW7-9Sx0J33hD5-33" value="&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Consome tópico&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;do ranking&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="958" y="322" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AcZ-fMvW7-9Sx0J33hD5-34" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Armazena Ranking&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="788" y="432" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AcZ-fMvW7-9Sx0J33hD5-35" value="&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Notifica a API sobre&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;novos valores&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="538" y="442" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AcZ-fMvW7-9Sx0J33hD5-36" value="&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Notifica o front&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;via Websocket&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="288" y="442" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
